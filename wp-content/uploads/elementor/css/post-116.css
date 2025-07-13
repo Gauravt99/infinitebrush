@@ -1,0 +1,89 @@
+.elementor-116 .elementor-element.elementor-element-6e3b805{--display:flex;}.elementor-116 .elementor-element.elementor-element-b17707d{text-align:center;}.elementor-116 .elementor-element.elementor-element-c793c94{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-116 .elementor-element.elementor-element-5813213 > .elementor-widget-container{margin:0px 0px 10px 0px;padding:0px 15px 0px 15px;}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-section-title > span{color:#000000;}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-section-title:hover > span{color:#000000;}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-border-divider{width:212px;background:linear-gradient(90deg, #FF7F2A 0%, #FF7F2A 100%);}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-border-divider.elementskit-style-long{width:212px;height:4px;color:#FF7F2A;}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-border-star{width:212px;height:4px;color:#FF7F2A;}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-border-divider, .elementor-116 .elementor-element.elementor-element-5813213 .elementskit-border-divider::before{height:4px;}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-border-divider:before{background-color:#FF7F2A;color:#FF7F2A;}.elementor-116 .elementor-element.elementor-element-5813213 .elementskit-section-title-wraper .elementskit-border-star:after{background-color:#FF7F2A;}.elementor-116 .elementor-element.elementor-element-9d7c4c6{--display:flex;}.elementor-msie .elementor-116 .elementor-element.elementor-element-4f16cf5 .elementor-post-item{width:calc( 100% / 3 );}.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card-grid-gap{grid-column-gap:30px;}.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card-container,
+				.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card-style-6{margin-bottom:35px;}.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card-alignment,
+				 .elementor-116 .elementor-element.elementor-element-4f16cf5 .card_align,
+				 .elementor-116 .elementor-element.elementor-element-4f16cf5 .card-category,
+                 .elementor-116 .elementor-element.elementor-element-4f16cf5 .card_title{text-align:left;}.elementor-116 .elementor-element.elementor-element-4f16cf5.elementor-element{--flex-grow:0;--flex-shrink:0;}.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card-box-radius{border-radius:8px 8px 8px 8px;}.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card_category,
+                .elementor-116 .elementor-element.elementor-element-4f16cf5 .post-content .post-card_category,
+                .elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card_category a,
+                .elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card-style-6 .card-category{color:#FF7F2A;}.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card_category,
+                .elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card_category a{font-weight:bold;font-style:italic;text-decoration:underline;}.elementor-116 .elementor-element.elementor-element-4f16cf5 .post-card_excerpt{font-style:italic;}@media(max-width:1024px){.elementor-msie .elementor-116 .elementor-element.elementor-element-4f16cf5 .elementor-post-item{width:calc( 100% / 2 );}}@media(max-width:767px){.elementor-msie .elementor-116 .elementor-element.elementor-element-4f16cf5 .elementor-post-item{width:calc( 100% / 1 );}}/* Start custom CSS for post-card-elementor-widget, class: .elementor-element-4f16cf5 */.post-card-style-2 .post-card-image .noimage {
+  padding: 0;
+  background: none;
+}
+
+.post-card-content-bg-box { 
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+ 
+.post-card-style-2 .post-card-image .noimage .thumb_title {
+  display: none;
+}
+
+
+.post-card_category a,
+.author.vcard, .post-card_title a {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-card_category a {
+    font-size: 16px;
+}
+
+.post-card_date_color {
+  font-size: 14px!important;
+}
+
+.card_title {
+  margin-top: 30px;
+}
+
+.post-card-container {
+    margin-bottom: 15px;
+}
+
+.post-card-box-radius {
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.post-card-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  margin-bottom: auto;
+}
+
+.read-more-btn {
+  margin-top: auto;
+  align-self: flex-start; /* Optional: aligns it left */
+}
+
+
+.card_author {
+  position: absolute;
+  bottom: 15px; 
+  left: 28px;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+}
+
+
+.author.vcard a {
+  color: #FF7F2A !important;
+}/* End custom CSS */
